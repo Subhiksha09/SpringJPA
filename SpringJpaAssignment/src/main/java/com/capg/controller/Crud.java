@@ -12,8 +12,8 @@ import com.capg.dao.LibraryDao;
 import com.capg.model.Book;
 import com.capg.model.Library;
 
-
-   public class Crud {
+@Controller
+public class Crud {
 	
       LibraryDao libraryDao = new LibraryDao();
       
